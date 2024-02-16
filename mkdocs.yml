@@ -4,16 +4,12 @@ theme:
   logo: assets/manjrasoftlogo.png
   palette:
     primary: default
-
   features:
     - navigation.tabs
     - navigation.sections
     - search.suggest
     - search.highlight
     - content.code.copy
-
-
-
 markdown_extensions:
   - abbr
   - admonition
