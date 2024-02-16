@@ -3,7 +3,7 @@ theme:
   name: material
   logo: assets/manjrasoftlogo.png
   palette:
-    primary: default
+    primary: white
   features:
     - navigation.tabs
     - navigation.sections
