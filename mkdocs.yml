@@ -25,4 +25,5 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
 
-
+copyright: |
+  &copy; 2023 <a href="http://manjrasoft.com"  target="_blank" rel="noopener">Manjrasoft Pty Ltd</a>
