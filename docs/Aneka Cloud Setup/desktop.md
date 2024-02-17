@@ -65,17 +65,57 @@ Aneka installation begins with installing Aneka Cloud Management Studio. The Clo
         3. Click ok and wait for 1 to 2 minutes.
     2. `Cloud Connections` : You can add multiple resource pools such as AWS, Azure and Gogrid.
     3. `Machine Credentials` : Credentials used to access the machines the cloud.
+        1. Right Click and Add, Insert `Username` with password that you have set for the machine(Ex: Username-Administrator, Password-"Your password") 
     4. `Installed Allocated` : List of machines added in to the cluster.
     5. `Uninstalled Allocated` : The list displays machines reachable by the Management Studio, however, no Aneka daemons are currently running on them.
     6. `Access Denied Allocated` : The list includes machines that are currently unreachable and do not have permission to access the services. 
 ### Adding machines to Aneka Cluster
+This section provides an step by step guide to adding machines in to Aneka Cluster.
+
+* Navigate to Aneka Managment Explorer and click on `File-->Add Machine`. By now a window will pop up and the values as mentioned below.
+    1. Host or IP : Add IP address of same machine or other machine. If this first time, than better to add the same machine.
+    2. Click Ok 
+
+* Navigate to the `Access Denied Allocated` section where you'll find machines marked with a "?" symbol. This symbol indicates that the machine is reachable but lacks permission to access the services.
+!!! warning " If you encounter any error symbols other than the "?" symbol, refer to the Troubleshooting section for assistance." 
+
+* Right click on machine and move on to `Link Credentials` and choose the username with administrator. 
+    <figure markdown="span">
+    ![Access Denied Machines](../assets/desktop2.PNG){ width="500" }
+    <figcaption>Image caption</figcaption>
+    </figure>
+
+
+* After adding `Link Credentials`, you should see the machine in `Uninstalled Allocated` section with red color cross mark. Right click on this and choose `install`  
+    <figure markdown="span">
+    ![Aneka Deamon Installation](../assets/desktop4.PNG){ width="500" }
+    <figcaption>Install</figcaption>
+    </figure>
+    1. Choose repository and port: By default port number will be 9000 and system will automatically check for its freeness. Fo repository select `Local Repo` if the machine is locahost or else choose the Repo that you have created in the previous section.
+        <figure markdown="span">
+    ![Aneka Deamon Installation](../assets/desktop3.PNG){ width="500" }
+    <figcaption>Installing Aneka Deamon</figcaption>
+    </figure>
+    2. Click on Next and Finish.
+* Once Aneka deamon in installed, you should see the machine in `Installed Allocated`.    
+    <figure markdown="span">
+    ![Aneka Deamon Installation](../assets/desktop5.PNG){ width="500" }
+    <figcaption>Installed machine</figcaption>
+    </figure>
+
+!!! success "Sucessfully added a machine to Aneka Cluster"
+    Now you can add the remaining machines in to the cluster in a similar fashion.
 
 ### Installing the Master
-This section provides an step by step guide to install Aneka Master.
+This video provides an step by step guide to install Aneka Master.
+<iframe width="580" height="340" src="https://www.youtube.com/embed/4pdW9WJ46rI" title="aneka master" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Installing the Worker
+This video provides an step by step guide to install Aneka worker.
+<iframe width="580" height="340" src="https://www.youtube.com/embed/sa_1Sx50-zM" title="Creating Aneka worker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-
+!!! success "Sucessfully created a Aneka Master and Worker"
+    Now you can add the remaining machines as a `workers` in to the cluster in a similar fashion.
 
 
