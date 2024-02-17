@@ -32,7 +32,7 @@ hide:
 
 
 
-[Course Syllabus]: OtherTopics/visualstudio.md
+[Course Syllabus]: OtherTopics/coursesyllabus.md
 [Try it Out]: Aneka%20Cloud%20Setup
 [Overview on Aneka technology]: https://www.manjrasoft.com/products.html
 [Aneka architecture]: https://www.manjrasoft.com/aneka_architecture.html
