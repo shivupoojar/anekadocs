@@ -68,8 +68,10 @@ Aneka installation begins with installing Aneka Cloud Management Studio. The Clo
     4. `Installed Allocated` : List of machines added in to the cluster.
     5. `Uninstalled Allocated` : The list displays machines reachable by the Management Studio, however, no Aneka daemons are currently running on them.
     6. `Access Denied Allocated` : The list includes machines that are currently unreachable and do not have permission to access the services. 
-### Installing the Master
+### Adding machines to Aneka Cluster
 
+### Installing the Master
+This section provides an step by step guide to install Aneka Master.
 
 ### Installing the Worker
 
