@@ -1,4 +1,5 @@
 site_name: Aneka Cloud Application Platform
+site_url: https://github.com/shivupoojar/AnekaPrograms
 theme:
   name: material
   logo: assets/manjrasoftlogo.png
@@ -13,6 +14,14 @@ theme:
     - content.action.edit
     - content.action.view
     - navigation.footer
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/shivupoojar/AnekaPrograms
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/manjrasoft-pty-ltd/about/
+
 markdown_extensions:
   - abbr
   - admonition
