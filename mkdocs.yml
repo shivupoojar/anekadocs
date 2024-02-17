@@ -36,6 +36,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-
+  - pymdownx.pathconverter:
+      base_path: '' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+      
 copyright: |
   &copy; 2023 <a href="http://manjrasoft.com"  target="_blank" rel="noopener">Manjrasoft Pty Ltd</a>

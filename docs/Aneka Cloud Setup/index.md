@@ -20,6 +20,6 @@ Learn setting up of Aneka on various infrastructure
 
 </div>
   [Desktop-Clouds]: desktop.md
-  [AWS-Clouds]: setting-up-navigation.md
+  [AWS-Clouds]: aws.md
   [Xen-Cluster]: setting-up-the-header.md
   [Azure-Clouds]: setting-up-the-footer.md
